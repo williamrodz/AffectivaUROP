@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		680079261C90C0C1009D9AD4 /* AffdexMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680079251C90C0C1009D9AD4 /* AffdexMeViewController.m */; };
+		680079361C9325CF009D9AD4 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 680079331C9325CF009D9AD4 /* PreferencesWindow.xib */; };
+		680079371C9325CF009D9AD4 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 680079351C9325CF009D9AD4 /* PreferencesWindowController.m */; };
+		680079391C932826009D9AD4 /* media in Resources */ = {isa = PBXBuildFile; fileRef = 680079381C932826009D9AD4 /* media */; };
+		680401A01CC8F35F001AF417 /* camera-lens-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6804019F1CC8F35F001AF417 /* camera-lens-icon.png */; };
+		6818F63A1C9B08A60013FAD1 /* ClassifierPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BA0DE61C98486900DFB13A /* ClassifierPickerViewController.m */; };
+		686B4BCA1C9CFE7B007E69C1 /* NSImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 686B4BC91C9CFE7B007E69C1 /* NSImage+Extensions.m */; };
+		68773BF61A1794610087D532 /* ExpressionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68773BF41A17936A0087D532 /* ExpressionViewController.m */; };
+		68773BF81A1794970087D532 /* ExpressionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68773BF71A1794970087D532 /* ExpressionView.xib */; };
+		688DFABE1CA037510045A9F0 /* classifiers.png in Resources */ = {isa = PBXBuildFile; fileRef = 688DFABC1CA037510045A9F0 /* classifiers.png */; };
+		688DFABF1CA037510045A9F0 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 688DFABD1CA037510045A9F0 /* settings.png */; };
+		68BA0DED1C987F3100DFB13A /* ClassifierModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BA0DEC1C987F3100DFB13A /* ClassifierModel.m */; };
+		68DEC4831A178731009FCB2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DEC4821A178731009FCB2E /* AppDelegate.m */; };
+		68DEC4851A178731009FCB2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DEC4841A178731009FCB2E /* main.m */; };
+		68DEC4871A178731009FCB2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DEC4861A178731009FCB2E /* Images.xcassets */; };
+		68DEC48A1A178731009FCB2E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68DEC4881A178731009FCB2E /* MainMenu.xib */; };
+		68DEC4961A178731009FCB2E /* AffdexMeOSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DEC4951A178731009FCB2E /* AffdexMeOSXTests.m */; };
+		A3D08E77559302A1656F311A /* Pods_AffdexMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C913AF9F1EAE26CD85B5A5C /* Pods_AffdexMe.framework */; };
+		D9111AFE1E5F93B900E8467B /* FaceEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9111AFD1E5F93B900E8467B /* FaceEventManager.m */; };
+		D916846D1E0EF88D007EA5D0 /* Partner_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D916846C1E0EF88D007EA5D0 /* Partner_Logo.png */; };
+		D9191C061E1BFD5A00C2AEAF /* Poweredby_Affectiva_clearbgk_FNL.png in Resources */ = {isa = PBXBuildFile; fileRef = D9191C051E1BFD5A00C2AEAF /* Poweredby_Affectiva_clearbgk_FNL.png */; };
+		D960A5BF1E14956E00719E6C /* Affectiva_Logo_Clear_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = D960A5BE1E14956E00719E6C /* Affectiva_Logo_Clear_Background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68DEC4901A178731009FCB2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68DEC4741A178731009FCB2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68DEC47B1A178731009FCB2E;
+			remoteInfo = MeasureUpOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68DEC4A11A178786009FCB2E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E0A5563682FAAAB1DE1C4F1 /* Pods-AffdexMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AffdexMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AffdexMe/Pods-AffdexMe.debug.xcconfig"; sourceTree = "<group>"; };
+		680079241C90C0C1009D9AD4 /* AffdexMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffdexMeViewController.h; sourceTree = "<group>"; };
+		680079251C90C0C1009D9AD4 /* AffdexMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffdexMeViewController.m; sourceTree = "<group>"; };
+		680079331C9325CF009D9AD4 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
+		680079341C9325CF009D9AD4 /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
+		680079351C9325CF009D9AD4 /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		680079381C932826009D9AD4 /* media */ = {isa = PBXFileReference; lastKnownFileType = folder; path = media; sourceTree = "<group>"; };
+		6804019F1CC8F35F001AF417 /* camera-lens-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-lens-icon.png"; path = "media/camera-lens-icon.png"; sourceTree = "<group>"; };
+		684C31C01CAC66B500718B91 /* AffdexMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AffdexMe.entitlements; sourceTree = "<group>"; };
+		686B4BC81C9CFE7B007E69C1 /* NSImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSImage+Extensions.h"; path = "AffdexMeOSX/NSImage+Extensions.h"; sourceTree = "<group>"; };
+		686B4BC91C9CFE7B007E69C1 /* NSImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSImage+Extensions.m"; path = "AffdexMeOSX/NSImage+Extensions.m"; sourceTree = "<group>"; };
+		68773BF31A17936A0087D532 /* ExpressionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionViewController.h; sourceTree = "<group>"; };
+		68773BF41A17936A0087D532 /* ExpressionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpressionViewController.m; sourceTree = "<group>"; };
+		68773BF71A1794970087D532 /* ExpressionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpressionView.xib; sourceTree = "<group>"; };
+		688DFABC1CA037510045A9F0 /* classifiers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = classifiers.png; path = media/classifiers.png; sourceTree = "<group>"; };
+		688DFABD1CA037510045A9F0 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = media/settings.png; sourceTree = "<group>"; };
+		68BA0DE51C98486900DFB13A /* ClassifierPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifierPickerViewController.h; sourceTree = "<group>"; };
+		68BA0DE61C98486900DFB13A /* ClassifierPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifierPickerViewController.m; sourceTree = "<group>"; };
+		68BA0DEB1C987F3100DFB13A /* ClassifierModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifierModel.h; sourceTree = "<group>"; };
+		68BA0DEC1C987F3100DFB13A /* ClassifierModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifierModel.m; sourceTree = "<group>"; };
+		68DEC47C1A178731009FCB2E /* AffdexMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffdexMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DEC4801A178731009FCB2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68DEC4811A178731009FCB2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68DEC4821A178731009FCB2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68DEC4841A178731009FCB2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68DEC4861A178731009FCB2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68DEC4891A178731009FCB2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		68DEC48F1A178731009FCB2E /* AffdexMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffdexMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DEC4941A178731009FCB2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68DEC4951A178731009FCB2E /* AffdexMeOSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AffdexMeOSXTests.m; sourceTree = "<group>"; };
+		6C913AF9F1EAE26CD85B5A5C /* Pods_AffdexMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AffdexMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		819FE234EFB7A6A78C5A92A9 /* Pods-AffdexMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AffdexMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-AffdexMe/Pods-AffdexMe.release.xcconfig"; sourceTree = "<group>"; };
+		D9111AFC1E5F93B900E8467B /* FaceEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceEventManager.h; sourceTree = "<group>"; };
+		D9111AFD1E5F93B900E8467B /* FaceEventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceEventManager.m; sourceTree = "<group>"; };
+		D916846C1E0EF88D007EA5D0 /* Partner_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Partner_Logo.png; path = logos/Partner_Logo.png; sourceTree = "<group>"; };
+		D9191C051E1BFD5A00C2AEAF /* Poweredby_Affectiva_clearbgk_FNL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Poweredby_Affectiva_clearbgk_FNL.png; path = logos/Poweredby_Affectiva_clearbgk_FNL.png; sourceTree = "<group>"; };
+		D960A5BE1E14956E00719E6C /* Affectiva_Logo_Clear_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Affectiva_Logo_Clear_Background.png; path = logos/Affectiva_Logo_Clear_Background.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68DEC4791A178731009FCB2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D08E77559302A1656F311A /* Pods_AffdexMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DEC48C1A178731009FCB2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AEADA72BC3E2D322F9AE233 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C913AF9F1EAE26CD85B5A5C /* Pods_AffdexMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68DEC4731A178731009FCB2E = {
+			isa = PBXGroup;
+			children = (
+				D9191C051E1BFD5A00C2AEAF /* Poweredby_Affectiva_clearbgk_FNL.png */,
+				D960A5BE1E14956E00719E6C /* Affectiva_Logo_Clear_Background.png */,
+				D916846C1E0EF88D007EA5D0 /* Partner_Logo.png */,
+				6804019F1CC8F35F001AF417 /* camera-lens-icon.png */,
+				684C31C01CAC66B500718B91 /* AffdexMe.entitlements */,
+				688DFABC1CA037510045A9F0 /* classifiers.png */,
+				688DFABD1CA037510045A9F0 /* settings.png */,
+				686B4BC81C9CFE7B007E69C1 /* NSImage+Extensions.h */,
+				686B4BC91C9CFE7B007E69C1 /* NSImage+Extensions.m */,
+				680079381C932826009D9AD4 /* media */,
+				68DEC47E1A178731009FCB2E /* AffdexMeOSX */,
+				68DEC4921A178731009FCB2E /* AffdexMeOSXTests */,
+				68DEC47D1A178731009FCB2E /* Products */,
+				DE1E12C952C964F7C25C678F /* Pods */,
+				0AEADA72BC3E2D322F9AE233 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		68DEC47D1A178731009FCB2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68DEC47C1A178731009FCB2E /* AffdexMe.app */,
+				68DEC48F1A178731009FCB2E /* AffdexMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68DEC47E1A178731009FCB2E /* AffdexMeOSX */ = {
+			isa = PBXGroup;
+			children = (
+				68BA0DEB1C987F3100DFB13A /* ClassifierModel.h */,
+				68BA0DEC1C987F3100DFB13A /* ClassifierModel.m */,
+				680079331C9325CF009D9AD4 /* PreferencesWindow.xib */,
+				680079341C9325CF009D9AD4 /* PreferencesWindowController.h */,
+				680079351C9325CF009D9AD4 /* PreferencesWindowController.m */,
+				680079241C90C0C1009D9AD4 /* AffdexMeViewController.h */,
+				680079251C90C0C1009D9AD4 /* AffdexMeViewController.m */,
+				D9111AFC1E5F93B900E8467B /* FaceEventManager.h */,
+				D9111AFD1E5F93B900E8467B /* FaceEventManager.m */,
+				68BA0DE51C98486900DFB13A /* ClassifierPickerViewController.h */,
+				68BA0DE61C98486900DFB13A /* ClassifierPickerViewController.m */,
+				68773BF31A17936A0087D532 /* ExpressionViewController.h */,
+				68773BF41A17936A0087D532 /* ExpressionViewController.m */,
+				68773BF71A1794970087D532 /* ExpressionView.xib */,
+				68DEC4811A178731009FCB2E /* AppDelegate.h */,
+				68DEC4821A178731009FCB2E /* AppDelegate.m */,
+				68DEC4861A178731009FCB2E /* Images.xcassets */,
+				68DEC4881A178731009FCB2E /* MainMenu.xib */,
+				68DEC47F1A178731009FCB2E /* Supporting Files */,
+			);
+			path = AffdexMeOSX;
+			sourceTree = "<group>";
+		};
+		68DEC47F1A178731009FCB2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68DEC4801A178731009FCB2E /* Info.plist */,
+				68DEC4841A178731009FCB2E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68DEC4921A178731009FCB2E /* AffdexMeOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				68DEC4951A178731009FCB2E /* AffdexMeOSXTests.m */,
+				68DEC4931A178731009FCB2E /* Supporting Files */,
+			);
+			path = AffdexMeOSXTests;
+			sourceTree = "<group>";
+		};
+		68DEC4931A178731009FCB2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68DEC4941A178731009FCB2E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE1E12C952C964F7C25C678F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E0A5563682FAAAB1DE1C4F1 /* Pods-AffdexMe.debug.xcconfig */,
+				819FE234EFB7A6A78C5A92A9 /* Pods-AffdexMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68DEC47B1A178731009FCB2E /* AffdexMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DEC4991A178731009FCB2E /* Build configuration list for PBXNativeTarget "AffdexMe" */;
+			buildPhases = (
+				F1E2808F12BD732932E905D4 /* [CP] Check Pods Manifest.lock */,
+				68DEC4781A178731009FCB2E /* Sources */,
+				68DEC4791A178731009FCB2E /* Frameworks */,
+				68DEC47A1A178731009FCB2E /* Resources */,
+				68DEC4A11A178786009FCB2E /* CopyFiles */,
+				1A7BDB3F6241E2BB1487D8F1 /* [CP] Embed Pods Frameworks */,
+				00F5ADC563D1F9158355D7AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AffdexMe;
+			productName = MeasureUpOSX;
+			productReference = 68DEC47C1A178731009FCB2E /* AffdexMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68DEC48E1A178731009FCB2E /* AffdexMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DEC49C1A178731009FCB2E /* Build configuration list for PBXNativeTarget "AffdexMeTests" */;
+			buildPhases = (
+				68DEC48B1A178731009FCB2E /* Sources */,
+				68DEC48C1A178731009FCB2E /* Frameworks */,
+				68DEC48D1A178731009FCB2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68DEC4911A178731009FCB2E /* PBXTargetDependency */,
+			);
+			name = AffdexMeTests;
+			productName = MeasureUpOSXTests;
+			productReference = 68DEC48F1A178731009FCB2E /* AffdexMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68DEC4741A178731009FCB2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Affectiva;
+				TargetAttributes = {
+					68DEC47B1A178731009FCB2E = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 5MNDPKJ5ZM;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					68DEC48E1A178731009FCB2E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 68DEC47B1A178731009FCB2E;
+					};
+				};
+			};
+			buildConfigurationList = 68DEC4771A178731009FCB2E /* Build configuration list for PBXProject "AffdexMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68DEC4731A178731009FCB2E;
+			productRefGroup = 68DEC47D1A178731009FCB2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68DEC47B1A178731009FCB2E /* AffdexMe */,
+				68DEC48E1A178731009FCB2E /* AffdexMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68DEC47A1A178731009FCB2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DEC4871A178731009FCB2E /* Images.xcassets in Resources */,
+				D9191C061E1BFD5A00C2AEAF /* Poweredby_Affectiva_clearbgk_FNL.png in Resources */,
+				688DFABF1CA037510045A9F0 /* settings.png in Resources */,
+				68DEC48A1A178731009FCB2E /* MainMenu.xib in Resources */,
+				68773BF81A1794970087D532 /* ExpressionView.xib in Resources */,
+				680079361C9325CF009D9AD4 /* PreferencesWindow.xib in Resources */,
+				680401A01CC8F35F001AF417 /* camera-lens-icon.png in Resources */,
+				688DFABE1CA037510045A9F0 /* classifiers.png in Resources */,
+				D960A5BF1E14956E00719E6C /* Affectiva_Logo_Clear_Background.png in Resources */,
+				680079391C932826009D9AD4 /* media in Resources */,
+				D916846D1E0EF88D007EA5D0 /* Partner_Logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DEC48D1A178731009FCB2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00F5ADC563D1F9158355D7AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AffdexMe/Pods-AffdexMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A7BDB3F6241E2BB1487D8F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AffdexMe/Pods-AffdexMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E2808F12BD732932E905D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68DEC4781A178731009FCB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6818F63A1C9B08A60013FAD1 /* ClassifierPickerViewController.m in Sources */,
+				D9111AFE1E5F93B900E8467B /* FaceEventManager.m in Sources */,
+				686B4BCA1C9CFE7B007E69C1 /* NSImage+Extensions.m in Sources */,
+				68773BF61A1794610087D532 /* ExpressionViewController.m in Sources */,
+				680079261C90C0C1009D9AD4 /* AffdexMeViewController.m in Sources */,
+				680079371C9325CF009D9AD4 /* PreferencesWindowController.m in Sources */,
+				68DEC4851A178731009FCB2E /* main.m in Sources */,
+				68BA0DED1C987F3100DFB13A /* ClassifierModel.m in Sources */,
+				68DEC4831A178731009FCB2E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DEC48B1A178731009FCB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DEC4961A178731009FCB2E /* AffdexMeOSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68DEC4911A178731009FCB2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68DEC47B1A178731009FCB2E /* AffdexMe */;
+			targetProxy = 68DEC4901A178731009FCB2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68DEC4881A178731009FCB2E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68DEC4891A178731009FCB2E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68DEC4971A178731009FCB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		68DEC4981A178731009FCB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68DEC49A1A178731009FCB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0A5563682FAAAB1DE1C4F1 /* Pods-AffdexMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AffdexMe.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5MNDPKJ5ZM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AffdexMeOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.affectiva.AffdexMeOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AffdexMe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68DEC49B1A178731009FCB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819FE234EFB7A6A78C5A92A9 /* Pods-AffdexMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AffdexMe.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5MNDPKJ5ZM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AffdexMeOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.affectiva.AffdexMeOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AffdexMe-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		68DEC49D1A178731009FCB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AffdexMeOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.affectiva.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeasureUpOSX.app/Contents/MacOS/MeasureUpOSX";
+			};
+			name = Debug;
+		};
+		68DEC49E1A178731009FCB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AffdexMeOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.affectiva.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeasureUpOSX.app/Contents/MacOS/MeasureUpOSX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68DEC4771A178731009FCB2E /* Build configuration list for PBXProject "AffdexMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DEC4971A178731009FCB2E /* Debug */,
+				68DEC4981A178731009FCB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DEC4991A178731009FCB2E /* Build configuration list for PBXNativeTarget "AffdexMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DEC49A1A178731009FCB2E /* Debug */,
+				68DEC49B1A178731009FCB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DEC49C1A178731009FCB2E /* Build configuration list for PBXNativeTarget "AffdexMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DEC49D1A178731009FCB2E /* Debug */,
+				68DEC49E1A178731009FCB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68DEC4741A178731009FCB2E /* Project object */;
+}
